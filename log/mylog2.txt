@@ -1,0 +1,332 @@
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 291, in marsh1
+    1+"1"
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 281, in marsh1
+    step = state_read(message,"step")
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3151, in state_read
+    cursor.execute("SELECT value FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3095, in db_new_user
+    cursor.execute("CREATE TABLE 'states' (key TEXT, value TEXT)")
+sqlite3.OperationalError: table 'states' already exists
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3883, in keyboard_menu
+    lang = state_read(message,"lang")
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3151, in state_read
+    cursor.execute("SELECT value FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3883, in keyboard_menu
+    lang = state_read(message,"lang")
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3151, in state_read
+    cursor.execute("SELECT value FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3883, in keyboard_menu
+    lang = state_read(message,"lang")
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3151, in state_read
+    cursor.execute("SELECT value FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3883, in keyboard_menu
+    lang = state_read(message,"lang")
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3151, in state_read
+    cursor.execute("SELECT value FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 3115, in state
+    cursor.execute("SELECT key FROM states WHERE key = '"+str(place)+"'")
+sqlite3.OperationalError: no such table: states
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 571, in start_second
+    img_have = cursor.fetchall()[0][0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 574, in start_second
+    img_have = cursor.fetchall()[0][0]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 40
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 39
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 38
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 37
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 36
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 35
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 2322, in callback_inline
+    bot.delete_message(message.chat.id, message.message_id);
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 1038, in delete_message
+    return apihelper.delete_message(self.token, chat_id, message_id, timeout)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 1269, in delete_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 40
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 39
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 38
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 37
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 35
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 40
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 38
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 37
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 28
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 26
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 844, in send_day_orders
+    bot.send_message(channel_drivers, data[i],reply_markup=keyboard_send_loc(message,last_index[i]));
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 972, in send_message
+    apihelper.send_message(
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 273, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 429. Description: Too Many Requests: retry after 25
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 856, in send_day_orders
+    nak = stringParser(message,oneDel);
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 2846, in stringParser
+    file = open("nak.txt","r")
+FileNotFoundError: [Errno 2] No such file or directory: 'nak.txt'
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 856, in send_day_orders
+    nak = stringParser(message,oneDel);
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 2846, in stringParser
+    file = open("nak.txt","r")
+FileNotFoundError: [Errno 2] No such file or directory: 'nak.txt'

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/sbcs3/bots/Chicken/Chicken.py", line 2401, in callback_inline
+    bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text=str(message.text)+"\n\n✅Принято✅")
+  File "/usr/local/lib/python3.9/dist-packages/telebot/__init__.py", line 2033, in edit_message_text
+    result = apihelper.edit_message_text(self.token, text, chat_id, message_id, inline_message_id, parse_mode,
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 1213, in edit_message_text
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/usr/local/lib/python3.9/dist-packages/telebot/apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
